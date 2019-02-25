@@ -98,6 +98,10 @@
                 <div class="w3-bar-item w3-light-green">get all</div>
                 <div class="w3-bar-item">http://leokrisnoto.com/api_sakura/apiMaster.php?email_search_user=EMAIL</div>
             </div>
+            <div class="w3-bar w3-border w3-light-grey">
+                <div class="w3-bar-item w3-light-green">get all</div>
+                <div class="w3-bar-item">http://leokrisnoto.com/api_sakura/apiMaster.php?nik_employee_login=NIK</div>
+            </div>
         </div>
     </body>
 </html>
