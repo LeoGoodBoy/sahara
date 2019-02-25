@@ -129,6 +129,21 @@ class control_SAKURA {
         include "view/view_cek_employee_login.php";
     }
     
+    function join_chart_level1(){
+        $data = $this->model->get_data_chart_level1();
+        include "view/view_join_chart1.php";
+    }
+    
+    function join_chart_level2(){
+        $data = $this->model->get_data_chart_level2();
+        include "view/view_join_chart2.php";
+    }
+    
+    function join_chart_level3(){
+        $data = $this->model->get_data_chart_level3();
+        include "view/view_join_chart3.php";
+    }
+    
     function fetch($result) {
         return mysqli_fetch_array($result);
     }
