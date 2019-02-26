@@ -1,5 +1,6 @@
 <?php
-header('Access-Control-Allow-Origin: http://localhost:12807/Login/index');
+header('Access-Control-Allow-Origin: http://localhost:12807');
+header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
 include "controller/control_SAKURA.php";
 $main = new control_SAKURA();
 if (isset($_GET['master_user'])) {
