@@ -102,6 +102,18 @@
                 <div class="w3-bar-item w3-light-green">get all</div>
                 <div class="w3-bar-item">http://leokrisnoto.com/api_sakura/apiMaster.php?nik_employee_login=NIK</div>
             </div>
+            <div class="w3-bar w3-border w3-light-grey">
+                <div class="w3-bar-item w3-light-green">get all</div>
+                <div class="w3-bar-item">http://leokrisnoto.com/api_sakura/apiMaster.php?chart_level1</div>
+            </div>
+            <div class="w3-bar w3-border w3-light-grey">
+                <div class="w3-bar-item w3-light-green">get all</div>
+                <div class="w3-bar-item">http://leokrisnoto.com/api_sakura/apiMaster.php?chart_level2</div>
+            </div>
+            <div class="w3-bar w3-border w3-light-grey">
+                <div class="w3-bar-item w3-light-green">get all</div>
+                <div class="w3-bar-item">http://leokrisnoto.com/api_sakura/apiMaster.php?chart_level3</div>
+            </div>
         </div>
     </body>
 </html>

@@ -133,10 +133,9 @@ class model_SAKURA {
     }
     
     function get_data_chart_level2() {
-        $query = "SELECT distinct c.contract_status, a.location, (SELECT COUNT(*) FROM allocation al JOIN "
-                . "contract crt ON al.empl_nik=crt.empl_nik WHERE crt.contract_status = c.contract_status ) "
-                . "as Jumlah FROM Allocation a INNER JOIN contract c ON a.empl_nik=c.empl_nik order by contract_status "
-                . "asc";
+        $query = "SELECT distinct c.contract_status, a.location, (SELECT COUNT(*) FROM allocation al JOIN contract 
+                crt ON al.empl_nik=crt.empl_nik WHERE crt.contract_status = c.contract_status ) as 
+                Jumlah FROM Allocation a INNER JOIN contract c ON a.empl_nik=c.empl_nik order by contract_status asc";
         return $this->execute($query);
     }
     
